@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Counter from './components/day01/Counter';
+import Forms from './components/day01/Forms';
+import ToggleBtn from './components/day02/ToggleBtn';
+import HideImage from './components/day02/HideImage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello world</h1>
+     {/* <Counter/>
+     <Forms/> */}
+
+     <ToggleBtn/>
+     <HideImage/>
     </div>
   );
 }
