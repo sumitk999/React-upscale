@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import img from './images/lion.jpg'
+import img from '../../images/lion.jpg'
 
 const HideImage = () => {
     const [show,setShow] = useState(false)
